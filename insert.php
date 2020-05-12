@@ -67,32 +67,74 @@
         <form name="sentMessage" id="contactForm" novalidate>
           <div class="control-group">
             <div class="form-group floating-label-form-group controls">
-              <label>Name</label>
-              <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+              <label>Title</label>
+              <input type="text" class="form-control" placeholder="Title" id="title" required data-validation-required-message="Please enter your title.">
               <p class="help-block text-danger"></p>
             </div>
           </div>
           <div class="control-group">
             <div class="form-group floating-label-form-group controls">
-              <label>Email Address</label>
-              <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+              <label>Body</label>
+              <textarea rows="5" class="form-control" placeholder="Body of BLOG" id="msg" required data-validation-required-message="Please enter a message."></textarea>
               <p class="help-block text-danger"></p>
             </div>
           </div>
+          <hr>
           <div class="control-group">
-            <div class="form-group col-xs-12 floating-label-form-group controls">
-              <label>Phone Number</label>
-              <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
+            <div class="form-group floating-label-form-group controls">
+            <h6> * Only  5 images but all are required</h6>
+            </div>
+            </div>
+            <hr>
+          <div class="control-group">
+            <div class="form-group floating-label-form-group controls">
+            <label>Image</label>
+                <h6>IMAGE 1</h6>
+                <input type="file" name="file1" id="im1" >
               <p class="help-block text-danger"></p>
             </div>
           </div>
           <div class="control-group">
             <div class="form-group floating-label-form-group controls">
-              <label>Message</label>
-              <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+            <label>Image</label>
+            <h6>IMAGE 2</h6>
+                <input type="file" name="file2" id="im2" >
               <p class="help-block text-danger"></p>
             </div>
           </div>
+          <div class="control-group">
+            <div class="form-group floating-label-form-group controls">
+            <label>Image</label>
+            <h6>IMAGE 3</h6>
+                <input type="file" name="file3" id="im3" >
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="control-group">
+            <div class="form-group floating-label-form-group controls">
+            <label>Image</label>
+            <h6>IMAGE 4</h6>
+                <input type="file" name="file4" id="im4" >
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="control-group">
+            <div class="form-group floating-label-form-group controls">
+            <label>Image</label>
+            <h6>IMAGE 5</h6>
+                <input type="file" name="file5" id="im5" >
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="control-group">
+            <div class="form-group floating-label-form-group controls">
+              <label>Date</label>
+              <input type="text" class="form-control" placeholder="Date [Format DD-MM-YYYY]" id="date" required data-validation-required-message="Please enter the date.">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+        
+          
           <br>
           <div id="success"></div>
           <div class="form-group">
