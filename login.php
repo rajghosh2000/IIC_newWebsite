@@ -2,7 +2,7 @@
 			$username = trim($_POST['uname']);
 			$password = trim($_POST['pwd']);
 			
-			if((!$username == "raj")&&(!$password == "123"))
+			if((!$username == "iic")&&(!$password == "123"))
 			{
 				echo("wrong");
 			}
